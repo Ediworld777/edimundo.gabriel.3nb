@@ -1,0 +1,20 @@
+# Ignorar arquivos de compilação
+target/
+
+# Ignorar arquivos temporários
+*.rs.bk
+*.log
+*.lock
+
+# Ignorar arquivos de configuração do IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de dependências gerados
+Cargo.lock
